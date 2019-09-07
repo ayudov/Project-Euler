@@ -4,8 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Problem_18 {
     public static void SolveTask18() {
@@ -48,22 +46,22 @@ public class Problem_18 {
         return output;
     }
 
-    private static int FindBiggerSum(int [][] input){
-        int sum = input[0][0];
+//    private static int FindBiggerSum(int [][] input){
+//        int sum = input[0][0];
+//
+//        for (int i = 1; i < input.length;i++){
+//            sum += FindBiggerInRow(FindIndexByTarget(input[i-1],))
+//        }
+//        return sum;
+//    }
 
-        for (int i = 1; i < input.length;i++){
-            sum += FindBiggerInRow(FindIndexByTarget(input[i-1],))
-        }
-        return sum;
-    }
-
-    private static int FindBiggerInRow(int j, int[] input_array){
-        if( input_array[j] > input_array[j+1]){
-            return input_array[j];
-        } else if (input_array[j] < input_array[j+1]){
-            return input_array[j+1];
-        }
-    }
+//    private static int FindBiggerInRow(int j, int[] input_array){
+//        if( input_array[j] > input_array[j+1]){
+//            return input_array[j];
+//        } else if (input_array[j] < input_array[j+1]){
+//            return input_array[j+1];
+//        }
+//    }
 
     public static int FindIndexByTarget(int[] a, int target)
     {
