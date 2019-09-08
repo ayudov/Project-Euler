@@ -1,5 +1,5 @@
 # Project-Euler
-Тут описаны первые 17 задач [проэкта Эйлера](https://projecteuler.net/about)
+Тут описаны первые 17 задач [проэкта Эйлера](https://projecteuler.net/about) на Java
 
 Решения не оптимальные, но работающие:)
 
