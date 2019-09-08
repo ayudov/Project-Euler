@@ -1,5 +1,3 @@
-import java.io.IOException;
-
 import static Text.Texts.Gap;
 import static Text.Texts.PrintText;
 import static Tasks.Problem_1.SolveTask1;
@@ -23,77 +21,77 @@ import static Tasks.Problem_18.SolveTask18;
 
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-//        PrintText(1);
-//        SolveTask1();
-//        Gap();
-//
-//        PrintText(2);
-//        SolveTask2();
-//        Gap();
-//
-//        PrintText(3);
-//        SolveTask3();
-//        Gap();
-//
-//        PrintText(4);
-//        SolveTask4();
-//        Gap();
-//
-//        PrintText(5);
-//        SolveTask5();
-//        Gap();
-////
-//        PrintText(6);
-//        SolveTask6();
-//        Gap();
-//
-//        PrintText(7);
-//        SolveTask7();
-//        Gap();
-//
-//        PrintText(8);
-//        SolveTask8();
-//        Gap();
-//
-//        PrintText(9);
-//        SolveTask9();
-//        Gap();
-//
-//        PrintText(10);
-//        SolveTask10();
-//        Gap();
-//
-//        PrintText(11);
-//        SolveTask11();
-//        Gap();
-//
-//        PrintText(12);
-//        SolveTask12();
-//        Gap();
-//
-//        PrintText(13);
-//        SolveTask13();
-//        Gap();
+    public static void main(String[] args) {
+        PrintText(1);
+        SolveTask1();
+        Gap();
 
-//        PrintText(14);
-//        SolveTask14();
-//        Gap();
-//
-//        PrintText(15);
-//        SolveTask15();
-//        Gap();
-//
-//        PrintText(16);
-//        SolveTask16();
-//        Gap();
-//
-//        PrintText(17);
-//        SolveTask17();
-//        Gap();
+        PrintText(2);
+        SolveTask2();
+        Gap();
 
-//        PrintText(18);
-//        SolveTask18();
-//        Gap();
+        PrintText(3);
+        SolveTask3();
+        Gap();
+
+        PrintText(4);
+        SolveTask4();
+        Gap();
+
+        PrintText(5);
+        SolveTask5();
+        Gap();
+//
+        PrintText(6);
+        SolveTask6();
+        Gap();
+
+        PrintText(7);
+        SolveTask7();
+        Gap();
+
+        PrintText(8);
+        SolveTask8();
+        Gap();
+
+        PrintText(9);
+        SolveTask9();
+        Gap();
+
+        PrintText(10);
+        SolveTask10();
+        Gap();
+
+        PrintText(11);
+        SolveTask11();
+        Gap();
+
+        PrintText(12);
+        SolveTask12();
+        Gap();
+
+        PrintText(13);
+        SolveTask13();
+        Gap();
+
+        PrintText(14);
+        SolveTask14();
+        Gap();
+
+        PrintText(15);
+        SolveTask15();
+        Gap();
+
+        PrintText(16);
+        SolveTask16();
+        Gap();
+
+        PrintText(17);
+        SolveTask17();
+        Gap();
+
+        PrintText(18);
+        SolveTask18();
+        Gap();
     }
 }
