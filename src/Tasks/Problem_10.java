@@ -15,23 +15,6 @@ public class Problem_10 {
         System.out.println("Answer: " + SumOfPrimes(primes));
     }
 
-//    private static boolean CheckIfPrime(long digit){
-//        if (digit != 1) {
-//            boolean prime = true;
-//            for (long p = 2; p < digit; p++) {
-//                if (digit % p == 0) {
-//                    prime = false;
-//                    break;
-//                }
-//            }
-//            return prime;
-//        }
-//        else{
-//            System.out.println("Error, number = 1");
-//            return false;
-//        }
-//
-//    }
     private static boolean[] EratosfenBool(){
         boolean[] primes =new boolean[MAX+1];
         Arrays.fill(primes, true);

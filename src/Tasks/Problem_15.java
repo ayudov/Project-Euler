@@ -2,7 +2,6 @@ package Tasks;
 
 public class Problem_15 {
 
-
     public static void SolveTask15() {
 
         int GRID = 20;

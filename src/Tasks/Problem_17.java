@@ -7,8 +7,6 @@ public class Problem_17 {
             sum += CountNumberOfCharacters(i);
         }
         System.out.println(sum);
-
-
     }
 
     private static int CountNumberOfCharacters(int n){
@@ -99,22 +97,5 @@ public class Problem_17 {
             sum = first_digit + hundred + and + CountNumberOfCharacters(n%100);
             return sum;
         }
-        //int sum = hundred_and;
-
-
-        //sum += NumberOfCharTwentyToNinetyNine(n % (int) Math.pow(10, (int) Math.log10(n)));
-//        switch ((int)n/10){
-//            case 2: sum += NumberOfCharZeroToTen((int)n/10)+nty; break;
-//            case 3:
-//            case 5:
-//            case 4:
-//            case 8:
-//                sum += NumberOfCharZeroToTen((int)n/10)+y; break;
-//            case 6:
-//            case 9:
-//            case 7:
-//                sum += NumberOfCharZeroToTen((int)n/10)+ty; break;
-//        }
-        //return sum;
     }
 }

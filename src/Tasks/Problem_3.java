@@ -12,18 +12,14 @@ public class Problem_3 {
                 for (double p = 2.0; p < Math.ceil(Math.sqrt(number)); p++) {
                     if (number % p == 0) {
                         prime = false;
-                        //System.out.println("Простое число:" + number);
                         delitel++;
                         number = NUMBER/(delitel);
                         break;
                     } else {
                         prime = true;
-                        //System.out.println("Делится на:" + number);
                     }
                 }
-                //System.out.println(number);
             } else {
-                //System.out.println("Не делится на:" + number);
                 delitel++;
                 number = NUMBER/(delitel);
             }

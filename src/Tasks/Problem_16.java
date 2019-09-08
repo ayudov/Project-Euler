@@ -6,13 +6,13 @@ public class Problem_16 {
     private static final int POWER = 1000;
     public static void SolveTask16() {
 
-        System.out.println(TakeSumOfDigits(TakeTwoPowerOf(POWER)));
+        System.out.println(TakeSumOfDigits(TakeTwoPowerOf()));
 
     }
 
-    private static BigInteger TakeTwoPowerOf (int n){
+    private static BigInteger TakeTwoPowerOf(){
         BigInteger b = BigInteger.valueOf(2);
-        return  b.pow(n);
+        return  b.pow(Problem_16.POWER);
     }
 
     private static BigInteger TakeSumOfDigits(BigInteger n){

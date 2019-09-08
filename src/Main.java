@@ -43,7 +43,7 @@ public class Main {
 //        PrintText(5);
 //        SolveTask5();
 //        Gap();
-//
+////
 //        PrintText(6);
 //        SolveTask6();
 //        Gap();
@@ -92,8 +92,8 @@ public class Main {
 //        SolveTask17();
 //        Gap();
 
-        PrintText(18);
-        SolveTask18();
-        Gap();
+//        PrintText(18);
+//        SolveTask18();
+//        Gap();
     }
 }

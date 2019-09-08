@@ -10,31 +10,20 @@ import java.util.List;
 
 public class Problem_8 {
     public static void SolveTask8() {
-
-        //int mult = 1;
-
         int[] digits = ArrayToList(ReadFromFile());
-
         List<Double> mult_list = new ArrayList<>();
-
         System.out.println(digits.length);
-
         double mult = 1;
-
         for (int i = 0; i<digits.length-1-13; i++, mult=1){
             for (int j = i; j < i + 13; j++){
                 mult *= digits[j];
             }
             mult_list.add(mult);
-
         }
-
         System.out.println(mult_list);
         Collections.sort(mult_list);
         System.out.println(mult_list);
-
         System.out.printf("%f", mult_list.get(mult_list.size()-1));
-
     }
 
     private static String ReadFromFile(){
@@ -56,9 +45,6 @@ public class Problem_8 {
         for (int i = 0; i < integers.length ; i++) {
             integers[i] = Integer.parseInt(integerStrings[i]);
         }
-
-
-
         return integers;
     }
 }

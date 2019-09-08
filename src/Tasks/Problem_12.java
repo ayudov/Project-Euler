@@ -8,9 +8,6 @@ import java.util.List;
 public class Problem_12 {
 
     public static void SolveTask12() {
-        System.out.println(GetPrimesOfNumber(76576500, 0, new ArrayList<Integer>()));
-        System.out.println(GetPrimesOfNumber(76576500, 0, new ArrayList<Integer>()));
-
         for (int i = 2; ;i++){
             if (GetPrimesOfNumber(GetTriangleNumber(i),0, new ArrayList<Integer>()) > 500){
                 System.out.println("Answer: " + GetTriangleNumber(i));
@@ -27,27 +24,17 @@ public class Problem_12 {
 
 
     private static int GetPrimesOfNumber(int n, int counter, List<Integer> primes){
-//        System.out.println("Counter: " + counter);
-//        System.out.println("input n: " + n);
-        //List<Integer> primes = new ArrayList<>();
         if (!IfPrime(n)){
             for (int i = 2; ;i++){
                 if (n % i == 0 && IfPrime(i)) {
                     primes.add(i);
                     counter += 2;
-                    //System.out.println("Prime divisor: " + i);
-                    //System.out.println("Counter: " + counter);
-                    //counter =
-                    //System.out.println("Popal syda");
-                    //System.out.println("Counter: " + counter);
                     return GetPrimesOfNumber(n / i, counter, primes);
                 }
             }
         }
         else{
             primes.add(n);
-            counter += 2;
-            //System.out.println("Final counter: " + counter);
             counter = GetNumberOfDivisors(primes);
             return counter;
         }
@@ -84,15 +71,4 @@ public class Problem_12 {
         }
     }
 
-    private static void Mult(int number){
-        for (int i = 2; i <= number; i++) {
-            for (int j = 2; j <= i; j++) {
-                if (number % j == 0) {
-                    System.out.print(j + ",");
-                    number = number / j;
-                }
-
-            }
-        }
-    }
 }

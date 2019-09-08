@@ -13,10 +13,8 @@ public class Problem_5 {
                                         if (i%16==0){
                                             if (i%15==0){
                                                 if (i%14==0){
-                                                    if (i%12==0){
-                                                        System.out.println("Is number " + i);
-                                                        break;
-                                                    }
+                                                    System.out.println("Is number " + i);
+                                                    break;
                                                 }
                                             }
                                         }

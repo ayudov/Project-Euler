@@ -11,7 +11,6 @@ public class Problem_9 {
                 int c;
                 for (c = 1; c <=1000; c++){
                     if (Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(c, 2)){
-                        //System.out.println("Троица: a=" + a + ", b= "+ b + "c= " + c);
                         if (a + b + c == 1000){
                             System.out.println("Ответ: Троица: a=" + a + ", b= "+ b + "c= " + c + "\n" +
                                     "Произведение: " + a*b* c);
